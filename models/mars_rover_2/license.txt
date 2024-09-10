@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mars Rover 2
+* source:	https://sketchfab.com/3d-models/mars-rover-2-51650fa1c23c48818a05aa1ece9f712e
+* author:	Lezalit (https://sketchfab.com/Lezalit)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mars Rover 2" (https://sketchfab.com/3d-models/mars-rover-2-51650fa1c23c48818a05aa1ece9f712e) by Lezalit (https://sketchfab.com/Lezalit) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

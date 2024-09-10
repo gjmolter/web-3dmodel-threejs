@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  background-color: #000;
+  font-family: "poppins", sans-serif;
+  background-color: #1c1a1a;
+  
 }
 
 header {
@@ -11,13 +12,13 @@ header {
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 5em;
   font-weight: 900;
 }
 
 #container3D canvas {
-  width: 100vw !important;
-  height: 100vh !important;
+  width: 100vw ;
+  height: 100vh ;
   position: absolute;
   top: 0;
   left: 0;
