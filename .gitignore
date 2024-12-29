@@ -1,0 +1,85 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder attributes
+Icon?
+._*
+
+# macOS metadata
+.Spotlight-V100
+.Trashes
+.metadata_never_index
+.noindex
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+*.tlog
+*.vscode/**
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Package lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# Other OS-generated files
+Thumbs.db
+Desktop.ini
+
+# Coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+.DS_Store
+
+# Web dev tools
+.sass-cache/
+.nuxt/
+.next/
+.cache/
+.cache-loader/
+__pycache__/
+tmp/
