@@ -12,13 +12,36 @@ header {
 
 header h1 {
   font-size: 2em;
-  font-weight: 900;
 }
 
 #container3D canvas {
-  width: 100vw !important;
+width: 100vw !important;
   height: 100vh !important;
   position: absolute;
   top: 0;
   left: 0;
+  pointer-events: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+    margin: 1em;
+    padding: 1em;
+    align-items: center;
+}
+.grid2 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+
+
+
+
+.LKR-img {
+  width: 100%;
+  height: auto;
 }
