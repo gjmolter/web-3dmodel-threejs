@@ -21,7 +21,7 @@ let object;
 let controls;
 
 //Set which object to render
-let objToRender = 'eye';
+let objToRender = 'eye'
 
 //Instantiate a loader for the .gltf file
 const loader = new GLTFLoader();
@@ -60,8 +60,12 @@ topLight.position.set(500, 500, 500) //top-left-ish
 topLight.castShadow = true;
 scene.add(topLight);
 
-const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 5 : 1);
-scene.add(ambientLight);
+const pointLight = new THREE.PointLight(0x333333, objToRender === "dino" ? 5 : 1);
+pointLight.position.set(5,5,5)
+scene.add(pointLight);
+
+const lightHelper = new THREE.PointLightHelper(pointLight)
+scene.add(lightHelper)
 
 //This adds controls to the camera, so we can rotate / zoom it with the mouse
 if (objToRender === "dino") {
